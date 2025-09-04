@@ -1,0 +1,24 @@
+# age = int(input("what age are you ? "))
+# theory = input("have you passed your theory test ? y/n ")
+# if age >= 17 :
+#     if theory == "y" :
+#         print("you can do the test !")
+#     else:
+#         print("sorry you cant do this test")
+# else:
+#         print("too young")
+
+# if age >= 17 and theory == "y" :
+#     print("you can do the test !")
+# elif age < 17 :
+#     print("too young")
+# else:
+#     print("sorry you must complete your theory test first")
+
+print("enter for the puppy fashion show !")
+puppyAge = int(input("How old is your puppy : "))
+puppyClothes = input("Does your puppy like to wear clothes? yes/no: ")
+if puppyAge >=4 or puppyClothes == "no" :
+    print("Your musty ah mutt aint elagable to enter the puppy fashion show")
+else:
+    print("your precious pup is in !")
