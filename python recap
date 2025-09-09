@@ -22,3 +22,16 @@ if puppyAge >=4 or puppyClothes == "no" :
     print("Your musty ah mutt aint elagable to enter the puppy fashion show")
 else:
     print("your precious pup is in !")
+
+
+# text = "hello world"
+# shift = 3
+# encrypted = ""
+# for i in text:
+#     if i.isalpha():
+#         encrypted += chr(ord(i)+ shift)
+#     else:
+#         encrypted+= i
+# 
+# print("Original:", text)
+# print("Encrypted:", encrypted)
